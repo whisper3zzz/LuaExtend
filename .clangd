@@ -1,0 +1,25 @@
+If:
+  PathMatch: .*\.c
+CompileFlags:
+  Add:
+    - -xc
+  Remove:
+    - -x*
+  Compiler: clang
+Style:
+  QuotedHeaders: ["src/.*"]
+  AngledHeaders: ["third-party/.*"]
+
+---
+
+If:
+  PathMatch: .*\.h
+CompileFlags:
+  Add:
+    - -xc-header
+  Remove:
+    - -x*
+  Compiler: clang
+Style:
+  QuotedHeaders: ["src/.*"]
+  AngledHeaders: ["third-party/.*"]
