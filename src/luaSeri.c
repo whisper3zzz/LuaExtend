@@ -1,5 +1,4 @@
 /**
- * Lua对象序列化，参考自skynet的序列化模块(https://github.com/cloudwu/skynet)，格式总体上相同，但有一些细微的差别
  * 概述：
  * 	- 仅支持的对象类型：nil, boolean, number, string, table, lightuserdata
  * 	- 数值类型为小端字节序。
