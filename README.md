@@ -1,3 +1,12 @@
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/lang-C-yellow.svg">
+     <img src="https://img.shields.io/badge/lang-Lua-blue.svg">
+  <img src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgreen.svg">
+  <img src="https://img.shields.io/badge/license-MIT-blue.svg">
+</p>
+
 ## Installation
 
 ```bash
