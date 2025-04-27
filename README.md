@@ -23,6 +23,10 @@ This code demonstrates how to load the LuaExtend library in a Lua environment:
 2. Second line loads the LuaExtend module using require()
     Replace {moduleName} with the specific module name you want to use from LuaExtendLib
 ]]
+
+package.cpath=package.cpath..";{yourDllLibPath}"
+local json = require("LuaExtendLib. {moduleName}")  
+
 -- Example usage
 package.cpath=package.cpath..";C:/LuaLibs/?.dll"
 local json = require("LuaExtendLib.json")
